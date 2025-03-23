@@ -5,7 +5,7 @@
     "description": "Stores information about planets and stars",
     "version": "1.0.0"
   },
-  "host": "astronomical-bodies-api.onrender.com",
+  "host": "ces-341-project2.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
