@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const planetsController = require("../controllers/planets");
+const planetsController = require("../Controllers/planets");
 const validation = require("../middleware/validate");
 
 router.get("/", planetsController.getAll);
