@@ -3,7 +3,7 @@ const router = express.Router();
 
 const { isAuthenticated } = require("../middleware/authenticate");
 
-const planetsController = require("../controllers/planets");
+const planetsController = require("../Controllers/planets");
 const validation = require("../middleware/validate");
 
 router.get("/", planetsController.getAll);
