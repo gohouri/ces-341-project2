@@ -5,8 +5,8 @@ const doc = {
     title: "Astronomical Bodies API",
     description: "Stores information about planets and stars",
   },
-  host: "localhost:1408",
-  schemes: ["http"]
+  host: "ces-341-project2.onrender.com",
+  schemes: ["https"]
 };
 
 const outputFile = "./swagger.json";

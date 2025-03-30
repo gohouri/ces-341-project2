@@ -5,10 +5,10 @@
     "description": "Stores information about planets and stars",
     "version": "1.0.0"
   },
-  "host": "localhost:1408",
+  "host": "ces-341-project2.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
