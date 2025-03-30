@@ -3,7 +3,7 @@ const router = express.Router();
 
 const { isAuthenticated } = require("../middleware/authenticate");
 
-const starsController = require("../controllers/stars");
+const starsController = require("../Controllers/stars");
 const validation = require("../middleware/validate");
 
 router.get("/", starsController.getAll);
