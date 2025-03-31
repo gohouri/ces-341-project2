@@ -5,7 +5,7 @@ const doc = {
     title: "Astronomical Bodies API",
     description: "Stores information about planets and stars",
   },
-  host: "ces-341-project2.onrender.com",
+  host: "localhost:1408",
   schemes: ["https"]
 };
 
